@@ -2,25 +2,39 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const Header = () => {
-    return (
-        <header className='bg-dark-gray p-4'>
-            <h1 className='text-2x1 font-bold'>Michael Duffey</h1>
-            <nav className='flex space-x-4'>
-                <NavLink exact to="/" className='px-3 py-2' activeClassName='bg-dark-green text-white'>
-                About Me
-                </NavLink>
-                <NavLink exact to="/portfolio" className='px-3 py-2' activeClassName='bg-dark-green text-white'>
-                Portfolio
-                </NavLink>
-                <NavLink exact to="/contact" className='px-3 py-2' activeClassName='bg-dark-green text-white'>
-                Contact
-                </NavLink>
-                <NavLink exact to="/resume" className='px-3 py-2' activeClassName='bg-dark-green text-white'>
-                Resume
-                </NavLink>
-            </nav>
-        </header>
-    );
+  return (
+    <header className="bg-dark-gray p-4">
+      <div className="container mx-auto flex justify-between items-center">
+        <h1 className="text-2xl font-bold">Michael Duffey</h1>
+        <nav>
+          <NavLink 
+            to="/" 
+            className={({ isActive }) => isActive ? 'text-white' : 'text-gray-400'}
+          >
+            About Me
+          </NavLink>
+          <NavLink 
+            to="/portfolio" 
+            className={({ isActive }) => isActive ? 'text-white' : 'text-gray-400'}
+          >
+            Portfolio
+          </NavLink>
+          <NavLink 
+            to="/contact" 
+            className={({ isActive }) => isActive ? 'text-white' : 'text-gray-400'}
+          >
+            Contact
+          </NavLink>
+          <NavLink 
+            to="/resume" 
+            className={({ isActive }) => isActive ? 'text-white' : 'text-gray-400'}
+          >
+            Resume
+          </NavLink>
+        </nav>
+      </div>
+    </header>
+  );
 };
 
 export default Header;

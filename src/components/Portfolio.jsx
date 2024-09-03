@@ -31,4 +31,4 @@ const Portfolio = () => {
     );
 };
 
-module.exports = Portfolio;
+export default Portfolio;

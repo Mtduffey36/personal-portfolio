@@ -1,8 +1,32 @@
-# React + Vite
+# Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+This is my own personal portfolio. It will be used to showcase my projects, skills, and contact information
 
-Currently, two official plugins are available:
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+- [How to Contribute](#how-to-contribute)
+- [Tests](#tests)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
+This project does not require an installation. However, you are welcome to to either clone the repository and access the project files or fork the repo.
+
+## Usage
+Deployed on [Netlify](https://mtduffey36-portfolio.netlify.app)
+
+![image of Mood-Sync Website](./src/assets/images/portfoliosnip.png)
+
+## Credits
+This was a solo project
+
+## License
+MIT License.
+
+## How to Contribute
+I are currently not looking for contributors. However any advice is always appreciated. 
+
+## Tests
+Tested at the time of deployment.

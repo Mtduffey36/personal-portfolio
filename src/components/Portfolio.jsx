@@ -4,13 +4,13 @@ const Portfolio = () => {
     const projects = [
         {
             title: 'Mood Sync',
-            image: './assets/images/mood-sync.JPG',
+            image: '../assets/images/moodSync.png',
             live: '#',
             repo: '#'
         },
         {
             title: 'Hair & Co.',
-            image: './assets/images/hairCo.png',
+            image: '../assets/images/hairCo.png',
             live: '#',
             repo: '#'
         },

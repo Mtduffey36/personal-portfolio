@@ -32,7 +32,7 @@ const Contact = () => {
                     {errors.name && <span className="text-red-500">{errors.name}</span>}
                 </div>
                 <div className="mt-4">
-                    <label htmlFor="message">Message:</label>\
+                    <label htmlFor="message">Message:</label>
                     <textarea
                     id="message"
                     value={message}
